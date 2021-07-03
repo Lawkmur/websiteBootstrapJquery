@@ -1,0 +1,60 @@
+:root {
+  --dark: #14171d;
+  --dark-x: #1d2027;
+}
+
+.bg-dark { background-color: var(--dark) !important; }
+
+/* NAV DINAMICO */
+ .navbar {
+  min-height: 5rem;
+
+
+}
+.dj-banner{margin: 0px 0; position: relative;
+  background: linear-gradient(180deg, #ffc404, #ffee00);
+}
+  .dj-banner .dj-bg{background-image: url(C:\Users\DELL\Desktop\assets\img/nanner); background-repeat: no-repeat; background-position: center; background-size: cover; width: 100%;}
+  .dj-banner .dj-bg img{display: block; margin: 0px auto; padding: 0px 0;}
+  .dj-banner .dj-text{text-align: center; padding-bottom: 20px;}
+  @media screen and (min-width:768px){
+     .dj-banner .dj-bg img{margin-right: 0px;}
+     .dj-banner .dj-text{position: absolute; top: 50%; left: 10%; transform: translate(-10%, -50%); width: 50%; text-align: left;}
+     .dj-banner .dj-text h1{font-size: calc(2*1.5vw);}
+     .dj-banner .dj-text p{font-size: calc(1.2*1.5vw);}
+  }
+  
+  /* footer responsive */
+
+ footer {
+    background-color: #1D2027;
+    font: bold 14px;
+    padding: 20px 0 !important;
+    color: white;
+    /* fuente nuevA */
+    font-family: 'Roboto', sans-serif;
+  }
+
+  footer .footer-left,
+  footer .footer-center,
+  footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  footer .footer-links a {
+    padding-right: 10px;
+  }
+
+  footer .footer-center i {
+    display: none;
+  }
+
+  footer .footer-connect {
+    display: none;
+  }
+
+ /* fin footer responsive */
+ 
